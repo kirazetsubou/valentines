@@ -1,0 +1,49 @@
+body{
+    background-color: gray;
+}
+body {
+    text-align: center; /* Center align all text */
+  }
+  
+  @keyframes sparkle {
+    0% {background-position: 0 0;}
+    50% {background-position: 400% 100%;}
+    100% {background-position: 0 0;}
+}
+
+#textDisplay {
+    font-size: 40px; /* Set font size to 40px */
+    font-weight: bold; /* Set font weight to bold */
+    background: radial-gradient(circle, #ffffff 5%, transparent 15%),
+                radial-gradient(circle, #ffffff 5%, transparent 15%),
+                radial-gradient(circle, #ffffff 5%, transparent 15%),
+                radial-gradient(circle, #ffffff 5%, transparent 15%);
+    background-size: 15px 15px;
+    background-color: violet; /* Background color */
+    background-position: center;
+    animation: sparkle 2s linear infinite; /* Apply animation */
+}
+
+.title {
+    font-size: 30px; /* Set title font size */
+}
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 24px;
+  }
+  
+  .content {
+    margin-bottom: 20px; /* Add margin to separate content and button */
+  }
+  #nextButton {
+    font-size: 18px; /* Increase font size */
+    padding: 10px 20px; /* Increase padding */
+    /* Optional: Increase width and height */
+    width: 150px;
+    height: 50px;
+  }
